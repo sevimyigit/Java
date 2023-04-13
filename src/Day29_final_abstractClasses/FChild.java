@@ -1,0 +1,29 @@
+package Day29_final_abstractClasses;
+
+public class FChild extends DParent {
+    @Override
+    public void method1() {
+
+    }
+
+    @Override
+    public void method2() {
+
+    }
+
+    // public abstract void method5;
+    // Modifier 'abstract' not allowed here
+
+    /*
+      Bugune kadar olusturdugumuz standart class'lari abstraction ile tanimlamak istedigimizde
+      abstract olmayan class demek yerine CONCRETE Class diyoruz.
+
+      Eger concrete bir lass, abstract bir  class'i parent edinirse
+      Java class declaration 'in 'in altini kirmizi cizip
+      parent abstract class daki abstract metdohlari
+      kendisine IMPLEMENT yapmasini ister.
+     */
+
+
+
+    }
